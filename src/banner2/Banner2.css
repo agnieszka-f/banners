@@ -1,0 +1,68 @@
+.component{
+    width: 160px;
+    height: 600px;
+    display: flex;
+    border: 1px solid lightgrey;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .content{
+    height: 550px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 5px;
+    border-bottom: 1px solid lightgrey;
+  }
+
+  .logo{
+    height: 40px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image{
+      height: 310px;
+  }
+
+  .name{
+      height: 120px;
+      text-align: center;
+  }
+
+  .x{
+      height: 80px;
+      font-weight: bold;
+  }
+
+  button{
+      border: none;
+      background: red;
+      color: white;
+      font-size: 16px;
+      padding: 5px 20px;
+      margin-bottom: 10px;
+  }
+
+  .close{
+      height: 30px;
+      position: relative;
+      width: 100%;
+  }
+
+  .icon{
+      position: absolute;
+      top: 0;
+      right: 0;
+      color: silver;
+  }
+
