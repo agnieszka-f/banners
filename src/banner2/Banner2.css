@@ -39,7 +39,7 @@
       text-align: center;
   }
 
-  .x{
+  .cost{
       height: 80px;
       font-weight: bold;
   }
@@ -66,3 +66,12 @@
       color: silver;
   }
 
+  .icon:hover{
+      color: grey;
+      cursor: pointer;
+  }
+
+  button:hover{
+      background:crimson;
+      cursor: pointer;
+  }

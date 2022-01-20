@@ -43,7 +43,7 @@ return (
       {
         currentOffers.map((offer, index) => <div className={`imgContainer + ${handleAddBorder(index)}`} key={offer.name}>
                                      <img src={offer.imgURL} alt={offer.name}></img>
-                                     <span className="price">{offer.price} zł</span>
+                                     <span className="price">{parseFloat(currentOffers[index].price).toFixed(2)} zł</span>
                                     </div>)
       }
       <div className="logoContainer">

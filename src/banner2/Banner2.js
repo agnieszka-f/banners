@@ -44,7 +44,7 @@ return (
                 <img src={currentOffers[index].imgURL} alt={currentOffers[index].name}></img>
             </div>
             <p className="name">{currentOffers[index].name}</p>
-            <p className="x">{parseFloat(currentOffers[index].price).toFixed(2)} zł</p>
+            <p className="cost">{parseFloat(currentOffers[index].price).toFixed(2)} zł</p>
             <button>Check</button>
         </div>
       }
